@@ -29,3 +29,22 @@ li a:hover:not(.active) {
 .active {
     background-color: #B22222;
 }
+
+input[type=text] {
+    width: 150px;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    border-radius: 2px;
+    font-size: 14px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 15px 15px 15px 15px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
